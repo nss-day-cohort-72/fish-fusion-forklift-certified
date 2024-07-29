@@ -11,4 +11,4 @@ const boatInventory = [
     { id: 7, species: "Tuna", weight: 18, price: 8.66, amount: 5 },
     { id: 8, species: "Puffer", weight: 2, price: 9.84, amount: 52 }
 ]
-    module.exports = { fishingBoat }
+    module.exports = { boatInventory }
