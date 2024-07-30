@@ -7,7 +7,7 @@ const { boatInventory } = require("./fishingBoat.js")
 the number 5.00 */
 const mongerInventory = (boatInventory, chefsBudget) => {
     const eligibleFish = boatInventory.filter(fish =>
-        fish.price <= 7.50 || fish.amount >= 10
+        fish.price <= 7.50 && fish.amount >= 10
     );
     const availableFish = eligibleFish.filter(fish =>
         fish.price <= chefsBudget
